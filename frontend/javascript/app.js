@@ -43,7 +43,9 @@ const addTask = async () => {
         todoInput.value = ''
         
     }
-
+    if (taskText === '') {
+        return
+    }
     const data = {
         task: taskText
     }
