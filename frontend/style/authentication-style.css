@@ -1,0 +1,24 @@
+.container {
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-300%);
+    width: 300px; 
+    background-color: transparent; 
+    border-radius: 10px;
+    transition: transform 1.0s ease-in-out;
+  }
+  
+.registration-form {
+  width: 100%; 
+  height: 300px; 
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
